@@ -1,0 +1,18 @@
+[project]
+name = "mp4mp3"
+version = "0.1.0"
+description = "Conversor de MP4 para MP3"
+authors = [
+    {name = "Alex"}
+]
+readme = "README.md"
+requires-python = "^3.11"
+dependencies = [
+    "python-dotenv (>=1.0.1,<2.0.0)",
+    "moviepy (==1.0.3)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
